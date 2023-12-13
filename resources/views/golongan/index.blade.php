@@ -4,7 +4,7 @@
 <div class="mt-3">
     <h1 class="display-4">DATA GOLONGAN</h1>
     <hr>
-    <a href="{{ url('golongan/create') }}" data-bs-toggle="modal" data-bs-target="#addModal" class="btn btn-primary"><i class="fa-solid fa-user-plus"></i>TAMBAH</a>
+    <a href="{{ url('golongan/create') }}" data-bs-toggle="modal" data-bs-target="#addModal" class="btn btn-primary"><i class="fa-solid fa-user-plus"></i>TAMBAHKAN DATA GOLONGAN</a>
     <div class="table-responsive mt-3">
         <table class="table my-3 table bgindi" id="dtb">
             <thead class="bg-primary text-white">
@@ -12,7 +12,7 @@
                     <th class="text-center">NO</th>
                     <th>KODE GOLONGAN</th>
                     <th>NAMA GOLONGAN</th>
-                    <th class="text-center">AKSI</th>
+                    <th class="text-center">ACTIONS</th>
                 </tr>
             </thead>
             <tbody>

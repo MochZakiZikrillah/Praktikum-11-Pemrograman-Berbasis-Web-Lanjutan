@@ -5,20 +5,20 @@
     <h1 class="display-4">DATA PELANGGAN</h1>
     <hr>
     <a href="{{ url('pelanggan/create') }}" class="mb-3 btn btn-primary" data-bs-toggle="modal"
-        data-bs-target="#exampleModal"><i class="fa-solid fa-user-plus"></i>TAMBAH</a>
+        data-bs-target="#exampleModal"><i class="fa-solid fa-user-plus"></i>TAMBAHKAN DATA PELANGGAN</a>
     <table class="table my-3 table bgindi" id="dtb">
         <thead>
             <tr>
-                <th class="text-center bg-primary text-white">NO</th>
-                <th class="bg-primary text-white">NO. PELANGGAN</th>
-                <th class="bg-primary text-white">NAMA</th>
-                <th class="bg-primary text-white">ALAMAT</th>
-                <th class="bg-primary text-white">NO. HP</th>
-                <th class="bg-primary text-white">GOLONGAN</th>
-                <th class="bg-primary text-white">NO. SERI PLN</th>
-                <th class="bg-primary text-white">NO. METERAN</th>
-                <th class="bg-primary text-white">STATUS</th>
-                <th class="text-center bg-primary text-white">AKSI</th>
+                <th class="text-center ">NO</th>
+                <th>NO. PELANGGAN</th>
+                <th>NAMA</th>
+                <th>ALAMAT</th>
+                <th>NO. HP</th>
+                <th>GOLONGAN</th>
+                <th>NO. SERI PLN</th>
+                <th>NO. METERAN</th>
+                <th>STATUS</th>
+                <th class="text-center ">Actions</th>
             </tr>
         </thead>
         <tbody>
